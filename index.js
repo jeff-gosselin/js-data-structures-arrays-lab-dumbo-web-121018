@@ -32,5 +32,6 @@ function prependDriver(name) {
 }
 
 function removeLastDriver() {
-  return drivers.slice(-1, drivers.length - 1);
+  newArray = drivers.slice(-1);
+  return newArray;  
 }
